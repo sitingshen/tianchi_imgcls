@@ -90,14 +90,14 @@ def main():
     # model_dict=model.state_dict()
 
     # shuffle=ShuffleNetV2_back()
-    # shuffle.load_state_dict(torch.load('/home/xiaolong/ss/projects/Shufflenet-v2-Pytorch-master/shufflenetv2_x1_69.402_88.374.pth.tar'))
+    # shuffle.load_state_dict(torch.load('/home/XXX/projects/Shufflenet-v2-Pytorch-master/shufflenetv2_x1_69.402_88.374.pth.tar'))
     # shuffle_dict=shuffle.state_dict()
     # shuffle_dict={k:v for k,v in shuffle_dict.items() if k in model_dict}
     # model_dict.update(shuffle_dict)
     # model.load_state_dict(model_dict)
 
     # model=Net()
-    # model=torch.load('/home/xiaolong/ss/projects/tianchi/model_out/Vgg16/vgg_model_200.pkl')
+    # model=torch.load('/home/XXX/projects/tianchi/model_out/Vgg16/vgg_model_200.pkl')
 
     criterion = nn.BCEWithLogitsLoss()
     optimizer = optim.SGD(model.parameters(), lr=lr)

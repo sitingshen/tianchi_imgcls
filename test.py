@@ -112,7 +112,7 @@ def main():
     #             if j !=0:
     #                 predict_dict[str(j)]=float(pred[i][j])
     #         sumission_dict[img_name[i]]=predict_dict
-    # sumission_file=open('/home/xiaolong/ss/projects/tianchi/model_out/vgg16_with_normal/test_result.json','w')
+    # sumission_file=open('/home/XXX/projects/tianchi/model_out/vgg16_with_normal/test_result.json','w')
     # json.dump(sumission_dict,sumission_file)
     pass
     #

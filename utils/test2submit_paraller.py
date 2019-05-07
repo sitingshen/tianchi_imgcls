@@ -17,7 +17,7 @@ import json
 import numpy as np
 import os
 
-bpath="/home/ss/projects/models/test_ensemble/enesmble3_b/"
+bpath="/home/XXX/projects/models/test_ensemble/enesmble3_b/"
 
 def arg_parse():
     parser = argparse.ArgumentParser(description='vis_bbox')
@@ -25,7 +25,7 @@ def arg_parse():
     parser.add_argument('--binary_img_root', type=str,default='binary07', help='save binary img root')
     parser.add_argument('--result_path', type=str,default='segmentations_coco_tianchi_2019_test_b_ensemble2019-04-24_20-24-48.json', help='result_path')
     # parser.add_argument('--example_submission_path', type=str, help='example_submission_path')
-    parser.add_argument('--test_info_path', type=str, default='/home/lindi/Music/dataset/jinnan2_round2_test_b_20190424.json',help='test_info_path')
+    parser.add_argument('--test_info_path', type=str, default='/home/XXX/dataset/jinnan2_round2_test_b_20190424.json',help='test_info_path')
     parser.add_argument('--score_threshold', type=str, help='score_threshold', default=0.7)
     # parser.add_argument('--test_prob_root', type=str,default='/home/xiaolong/ss/projects/tianchi_dataset/round2/jinnan2_round2_train_20190401/tianchi_seg/img/test_probs/', help='test_prob_root')
     # parser.add_argument('--final_submit',default='submit07.json',type=str, help='save submit.json')

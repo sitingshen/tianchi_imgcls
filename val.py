@@ -35,7 +35,7 @@ def parse_args():
     # parser.add_argument(
     #     "--normal_file",
     #     dest='normal_file',
-    #     default="/home/XXX/ss/projects/tianchi_dataset/round1/jinnan2_round1_train_20190222/normal/",
+    #     default="/home/XXX/projects/tianchi_dataset/round1/jinnan2_round1_train_20190222/normal/",
     #     metavar="FILE",
     #     help="path to normal file",
     #     type=str,
@@ -43,7 +43,7 @@ def parse_args():
     # parser.add_argument(
     #     "--normal_csv",
     #     dest='normal_csv',
-    #     default="/home/XXX/ss/projects/tianchi_dataset/round1/jinnan2_round1_train_20190305/split/fbrate/2_3/tianchi_instances_rnval2019.csv",
+    #     default="/home/XXX/projects/tianchi_dataset/round1/jinnan2_round1_train_20190305/split/fbrate/2_3/tianchi_instances_rnval2019.csv",
     #     metavar="FILE",
     #     help="path to normal csv",
     #     type=str,
@@ -89,7 +89,7 @@ def val_main(model_conv=None):
 
 
 
-    with open('/home/ss/projects/models/vgg16_model_cls6_round2/valrn_round2_200_5.csv', 'w') as csvfile:
+    with open('/home/XXX/projects/models/vgg16_model_cls6_round2/valrn_round2_200_5.csv', 'w') as csvfile:
         wri = csv.writer(csvfile, dialect='excel')
         wri.writerow(["img_name",'prob'])
 
